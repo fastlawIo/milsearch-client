@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "target": "es6",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noResolve": false,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "declaration": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "types": [
+      "node"
+    ],
+    "paths": {
+      "auth-lib": ["src/index.ts"]
+    },
+    "useDefineForClassFields": true
+  },
+  "include": ["index.ts", "src/*"],
+  "exclude": ["scripts/*"]
+}
